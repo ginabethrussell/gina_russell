@@ -1,0 +1,124 @@
+.projects-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Quicksand', sans-serif;
+}
+.projects-wrapper h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.project-main {
+    display: flex;
+    width: 100%;
+}
+.project-img {
+    width: 50%;
+}
+.project-img img {
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #cdd1d3;
+    box-shadow: 0 4px 4px #cdd1d3;
+    /* box-shadow: 1px 2px 24px 0 rgba(0,0,0,0.2) */
+}
+.project-info {
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+#codegirlz .project-info h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 5px 0;
+}
+#upgrade-tutors .project-info h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project-title h3 {
+    margin-bottom: 8px;
+}
+.project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 25px;
+    font-size: 1.8rem;
+    justify-content: space-evenly;
+}
+
+.project-info a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: darkslateblue;
+    text-transform: uppercase;
+}
+
+.view-project a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 800px){ 
+    .project-main {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .project-img {
+        width: 100%;
+       
+    }
+    .project-info {
+        width: 100%;
+        
+    }
+    #codegirlz .project-info h3{
+        font-size: 1.6rem;
+        padding-bottom: 8px;
+    }
+    .view-project a {
+        margin: 16px 0;
+    } 
+    #upgradetutors.project-main {
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 500px){ 
+    .project-img {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .project-info {
+        width: 95%;
+        margin: 0 auto;
+    } 
+}
+/* CSS HEX 
+--amethyst: #9b5de5ff;
+--magenta-crayola: #f15bb5ff;
+--minion-yellow: #fee440ff;
+--capri: #00bbf9ff;
+--sea-green-crayola: #00f5d4ff;
+-- text color: #494331
+*/

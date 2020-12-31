@@ -1,0 +1,15 @@
+.contact-form-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contact-form-wrapper h2{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}

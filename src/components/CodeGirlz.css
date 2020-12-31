@@ -1,0 +1,37 @@
+.codegirlz-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+}
+
+.codegirlz-wrapper .navbar {
+    margin-bottom: 30px;
+}
+.codegirlz-wrapper .project-section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.codegirlz-wrapper .project-section h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.codegirlz-wrapper .project-section .img-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.img-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cdd1d3;
+    box-shadow: 0 2px 2px #cdd1d3;
+}
