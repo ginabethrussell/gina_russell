@@ -1,4 +1,4 @@
-.codegirlz-wrapper {
+.upgradetutors-wrapper {
     width: 100%;
     display: flex;
     padding: 30px 50px;
@@ -8,28 +8,27 @@
     min-height: 100vh;
 }
 
-.codegirlz-wrapper .navbar {
+.upgradetutors-wrapper .navbar {
     margin-bottom: 30px;
 }
-.codegirlz-wrapper .project-section{
-    display: flex;
+.upgradetutors-wrapper .project-section{
     width: 90%;
     margin: 0 auto;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    
+    align-items: flex-start; 
 }
-.codegirlz-wrapper .project-section h1 {
+.upgradetutors-wrapper .project-section h1 {
     font-weight: 600;
     font-size: 2.6rem;
     margin-bottom: 20px;
 }
 
-.codegirlz-wrapper .project-section .img-wrapper {
+.upgradetutors-wrapper .project-section .img-wrapper {
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
-.img-wrapper img {
+.upgradetutor-wrapper .img-wrapper img {
     width: 100%;
     border-radius: 10px;
     border: 1px solid #cdd1d3;

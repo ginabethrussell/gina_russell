@@ -33,7 +33,7 @@ export default function Projects () {
                     </div>
                     <p>A full stack web application created with a cross-functional team.</p>
                     <div className='view-project'>
-                        <Link to='/project/upgradetutorsu'>
+                        <Link to='/project/upgradetutors'>
                             Project Details
                         </Link>
                     </div>   
@@ -52,7 +52,7 @@ export default function Projects () {
                     </div>
                     <p>A full stack web application created with a cross-functional team.</p>
                     <div className='view-project'>
-                        <Link to='/project/codegirlz'>
+                        <Link to='/project/anywherefitness'>
                             Project Details
                         </Link>
                     </div>

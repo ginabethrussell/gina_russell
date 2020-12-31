@@ -1,4 +1,4 @@
-.contact-form-wrapper {
+.contact-wrapper {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -8,8 +8,39 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-.contact-form-wrapper h2{
+.contact-wrapper h2{
     font-weight: 600;
     font-size: 2rem;
     margin-bottom: 10px;
+}
+
+.contact-wrapper p {
+    font-size: 1.6rem;
+    margin: 8px 0;
+}
+
+
+.contact-wrapper a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 8px;
+    position: relative;
+    color: darkslateblue;
+}
+
+.contact-wrapper a:after {
+    border-radius: 1em;
+    border-top: .2em solid darkslateblue;
+    border-width: 2px;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .2em;
+    left: 0;
+    transition: right .2s ease-in-out;
+    }
+
+.contact-wrapper a:hover::after {
+   right: 0;
 }

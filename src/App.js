@@ -8,6 +8,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import CodeGirlz from './components/CodeGirlz';
+import UpgradeTutors from './components/UpgradeTutors';
+import AnywhereFitness from './components/AnywhereFitness';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Footer />
         </Route>
         <Route path='/project/codegirlz' component={CodeGirlz} />
+        <Route path='/project/upgradetutors' component={UpgradeTutors} />
+        <Route path='/project/anywherefitness' component={AnywhereFitness} />
       </Switch>
       
       {/* <div>Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}

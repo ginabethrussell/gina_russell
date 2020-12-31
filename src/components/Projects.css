@@ -33,12 +33,7 @@
 }
 
 
-#codegirlz .project-info h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    padding: 5px 0;
-}
-#upgrade-tutors .project-info h3 {
+.project-info h3 {
     font-size: 1.8rem;
     font-weight: 600;
     padding: 5px 0;
@@ -76,6 +71,23 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding-bottom: 8px;
+}
+
+.view-project a:after {
+    border-radius: 1em;
+    border-top: .1em solid darkslateblue;
+    border-width: 2px;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .2em;
+    left: 0;
+    transition: right .2s ease-in-out;
+    }
+
+.view-project a:hover::after {
+   right: 0;
 }
 
 @media screen and (max-width: 800px){ 
