@@ -11,12 +11,13 @@
 .anywherefitness-wrapper .navbar {
     margin-bottom: 30px;
 }
+
 .anywherefitness-wrapper .project-section{
     width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;  
+    align-items: center;  
 }
 .anywherefitness-wrapper .project-section h1 {
     font-weight: 600;
@@ -24,10 +25,17 @@
     margin-bottom: 20px;
 }
 
+.anywherefitness-wrapper .project-section h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
 .anywherefitness-wrapper .project-section .img-wrapper {
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
 }
+
 .anywherefitness-wrapper .img-wrapper img {
     width: 100%;
     border-radius: 10px;

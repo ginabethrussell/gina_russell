@@ -1,5 +1,5 @@
 import React from 'react';
-import CodeGirlzHome from '../CodeGirlzHome.png';
+import CodeGirlzHome from '../CodeGirlzHomePage.png';
 import { Link } from 'react-router-dom';
 import upGradeHome from '../upgradeHome.png'
 import anywhereFitness from '../anywherefitness.png';

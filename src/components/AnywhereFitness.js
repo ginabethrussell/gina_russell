@@ -16,8 +16,8 @@ export default function AnywhereFitness () {
                 <div className='img-wrapper'>
                     <img src={AnywhereFitnessHome} />
                 </div>
-            </div>
-            
+                <h2>Details Coming Soon</h2>
+            </div> 
         </div>
     )
 }

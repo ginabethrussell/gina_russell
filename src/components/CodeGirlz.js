@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './CodeGirlz.css';
-import CodeGirlzHome from '../CodeGirlzHome.png';
-import CodeGirlzDashboard from '../CodeGirlzDashboard.png';
-import CodeGirlzReplit from '../CodeGirlzReplit.png';
-import CodeGirlzChallenge from '../Challenge.png';
-import CodeGirlzProject from '../MadLibs.png';
+import HomePage from '../CodeGirlzHomePage.png';
+import DashboardPage from '../CodeGirlzDashboardPage.png';
+import LessonPage from '../CodeGirlzLessonPage.png';
+import ChallengePage from '../CodeGirlzChallengePage.png';
+import ProjectPage from '../CodeGirlzProjectPage.png';
 import WebsiteIcon from '../websiteicon.png';
 import GitHubIcon from '../githubicon.png';
 import Footer from './Footer';
@@ -21,7 +21,7 @@ export default function CodeGirlz () {
             <div className='project-section'>
                 <h1>CodeGirlz</h1>
                 <div className='img-wrapper'>
-                    <img src={CodeGirlzHome} />
+                    <img src={HomePage} />
                 </div>
                 <div className='project-intro'>
                     <h3>Overview</h3>
@@ -63,7 +63,7 @@ export default function CodeGirlz () {
                         <div className='walkthrough-page'>
                          
                             <div className='page-img-wrapper'>
-                                <img src={CodeGirlzHome} />
+                                <img src={HomePage} />
                                 <p>
                                     Landing Page with CTA Button
                                 </p>
@@ -72,36 +72,36 @@ export default function CodeGirlz () {
                         <div className='walkthrough-page'>
                         
                             <div className='page-img-wrapper'>
-                                <img src={CodeGirlzDashboard} />
+                                <img src={DashboardPage} />
                                 <p>
-                                    Dashboard Page with grid of modules with descriptions
+                                    Dashboard Page with grid of modules
                                 </p>
                             </div>
                         </div>
                         <div className='walkthrough-page'>
                     
                             <div className='page-img-wrapper'>
-                                <img src={CodeGirlzReplit} />
+                                <img src={LessonPage} />
                                 <p>
-                                    Individual lesson pages with embedded YouTube instructional videos and repl.it code examples
+                                    Individual lesson pages
                                 </p>
                             </div>
                         </div>
                         <div className='walkthrough-page'>
                     
                             <div className='page-img-wrapper'>
-                                <img src={CodeGirlzChallenge} />
+                                <img src={ChallengePage} />
                                 <p>
-                                    Challenges focused on practicing new lesson concepts
+                                    Challenges targeted to new concepts
                                 </p>
                             </div>
                         </div>
                         <div className='walkthrough-page'>
                     
                             <div className='page-img-wrapper'>
-                                <img src={CodeGirlzProject} />
+                                <img src={ProjectPage} />
                                 <p>
-                                    Projects that demonstrate how to combine new skills
+                                    Projects that combine skills
                                 </p>
                             </div>
                         </div>
@@ -110,18 +110,23 @@ export default function CodeGirlz () {
                 </div>
                 <div className='project-underconstruction'>
                     <h3>Under Construction</h3>
-                    <p>
-                        Convert curriculum written in Google Docs to JSX in React
-                    </p>
-                    <p>
-                        Add instructional YouTube videos
-                    </p>
-                    <p>
-                        Embed coding examples with Repl.it
-                    </p>
-                    <p>
-                        Add the ability for community - share feedback and projects on the site
-                    </p>
+                    <ul>
+                        <li>
+                            Convert remaining curriculum text from Google Docs to JSX
+                        </li>
+                        <li>
+                            Add YouTube instructional videos and embedded repl.it code examples
+                        </li>
+                        <li>
+                            Add a contact/feedback form
+                        </li>
+                        <li>
+                            Add an optional login to track personal progress
+                        </li>
+                        <li>
+                            Add a community gallery to share projects
+                        </li>
+                    </ul>
                 
                 </div>
             </div>
