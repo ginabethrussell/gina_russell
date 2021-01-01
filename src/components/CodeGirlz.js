@@ -4,6 +4,8 @@ import './CodeGirlz.css';
 import CodeGirlzHome from '../CodeGirlzHome.png';
 import CodeGirlzDashboard from '../CodeGirlzDashboard.png';
 import CodeGirlzReplit from '../CodeGirlzReplit.png';
+import CodeGirlzChallenge from '../Challenge.png';
+import CodeGirlzProject from '../MadLibs.png';
 import WebsiteIcon from '../websiteicon.png';
 import GitHubIcon from '../githubicon.png';
 import Footer from './Footer';
@@ -51,7 +53,7 @@ export default function CodeGirlz () {
                     </p>
                     <p>
                         My goal was to create and offer a fun, introduction to coding through a platform targeted for these girls in both style and approach. The lessons are clear, perhaps more wordy than most, but give girls a clear way to measure their progress and see how their new abilities enable them to build their own creative projects.
-                        The course covers both programming fundamentals and problem solving using many tools including flowchart and pseudocode. The focus is not <span className='italic' >follow this tutorial to build a game</span>, but instead, <span className='italic'>build these skills so you can have your own superpower to create!</span>
+                        The course covers both programming fundamentals and problem solving using many tools including flowcharts and pseudocode. The focus is not <span className='italic' >follow this tutorial to build a game</span>, but instead, <span className='italic'>build these skills so you can have your own superpower to create!</span>
                     </p>
                 
                 </div>
@@ -81,7 +83,25 @@ export default function CodeGirlz () {
                             <div className='page-img-wrapper'>
                                 <img src={CodeGirlzReplit} />
                                 <p>
-                                    Individual lesson, challenge and project pages
+                                    Individual lesson pages with embedded YouTube instructional videos and repl.it code examples
+                                </p>
+                            </div>
+                        </div>
+                        <div className='walkthrough-page'>
+                    
+                            <div className='page-img-wrapper'>
+                                <img src={CodeGirlzChallenge} />
+                                <p>
+                                    Challenges focused on practicing new lesson concepts
+                                </p>
+                            </div>
+                        </div>
+                        <div className='walkthrough-page'>
+                    
+                            <div className='page-img-wrapper'>
+                                <img src={CodeGirlzProject} />
+                                <p>
+                                    Projects that demonstrate how to combine new skills
                                 </p>
                             </div>
                         </div>
