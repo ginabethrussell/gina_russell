@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './CodeGirlz.css';
+import Footer from './Footer';
+
 import HomePage from '../CodeGirlzHomePage.png';
 import DashboardPage from '../CodeGirlzDashboardPage.png';
 import LessonPage from '../CodeGirlzLessonPage.png';
@@ -8,13 +9,16 @@ import ChallengePage from '../CodeGirlzChallengePage.png';
 import ProjectPage from '../CodeGirlzProjectPage.png';
 import WebsiteIcon from '../websiteicon.png';
 import GitHubIcon from '../githubicon.png';
-import Footer from './Footer';
+import developer from '../girl.png';
+
+import './CodeGirlz.css';
 
 export default function CodeGirlz () {
     return (
         <div className='codegirlz-wrapper'>
             <nav className='navbar'>
                 <div className='nav-logo'>
+                    <img width='30px' src={developer} alt='girl developer logo'/>
                     <Link to='/'>ginaRussell</Link>
                 </div>
             </nav>

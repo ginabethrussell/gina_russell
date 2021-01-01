@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './UpgradeTutors.css';
-import upGradeHome from '../upgradeHome.png';
+import Footer from  './Footer';
 
+import upGradeHome from '../upgradeHome.png';
+import developer from '../girl.png';
+
+import './UpgradeTutors.css';
 
 export default function UpgradeTutors () {
     return (
         <div className='upgradetutors-wrapper'>
             <nav className='navbar'>
                 <div className='nav-logo'>
+                    <img width='30px' src={developer} alt='girl developer logo'/>
                     <Link to='/'>ginaRussell</Link>
                 </div>
             </nav>
@@ -19,7 +23,7 @@ export default function UpgradeTutors () {
                 </div>    
                 <h2>Details Coming Soon</h2>
             </div>
-            
+            <Footer />
         </div>
     )
 }

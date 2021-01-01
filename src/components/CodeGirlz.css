@@ -11,6 +11,16 @@
 .codegirlz-wrapper .navbar {
     margin-bottom: 30px;
 }
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    margin-right: 5px;
+}
+
 .codegirlz-wrapper .project-section{
     display: flex;
     width: 90%;
@@ -19,6 +29,7 @@
     align-items: flex-start;
     
 }
+
 .codegirlz-wrapper .project-section h1 {
     margin: 0 auto;
     font-weight: 600;
@@ -30,6 +41,7 @@
     width: 75%;
     margin: 0 auto;
 }
+
 .img-wrapper img {
     width: 100%;
     border-radius: 10px;
@@ -52,7 +64,6 @@
     margin-bottom: 10px;
     margin: 0 auto;
 }
-
 
 .codegirlz-wrapper .project-intro p, .codegirlz-wrapper .project-purpose p, .codegirlz-wrapper .project-walkthrough p, .codegirlz-wrapper .project-underconstruction p{
     font-weight: 400;
@@ -78,7 +89,6 @@
     margin: 20px;
 }
 
-
 .codegirlz-wrapper .project-walkthrough .walkthrough-grid{
     display: flex;
     flex-direction: row;
@@ -86,6 +96,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .codegirlz-wrapper .project-walkthrough .walkthrough-page{
     width: 40%;
     margin: 20px;
@@ -102,6 +113,7 @@
     width: 100%;
     margin: 0 auto;
 }
+
 .page-img-wrapper img {
     width: 100%;
     border-radius: 10px;
@@ -117,12 +129,12 @@
     margin: 0 auto;
     margin-top: 10px;
 }
+
 .codegirlz-wrapper .project-underconstruction li {
     list-style-type: circle;
     font-size: 1.6rem;
     margin: 8px 0;
 }
-
 
 @media screen and (max-width: 850px){
     .codegirlz-wrapper .project-walkthrough .walkthrough-grid{

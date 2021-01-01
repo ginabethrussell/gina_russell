@@ -1,6 +1,7 @@
 import React from 'react';
-import CodeGirlzHome from '../CodeGirlzHomePage.png';
 import { Link } from 'react-router-dom';
+
+import CodeGirlzHome from '../CodeGirlzHomePage.png';
 import upGradeHome from '../upgradeHome.png'
 import anywhereFitness from '../anywherefitness.png';
 
@@ -27,7 +28,7 @@ export default function Projects () {
                 </div>       
             </div>
             <div id='upgradetutors' className='project-main'>
-            <div className='project-info'>
+                <div className='project-info'>
                     <div className = 'project-title'>
                         <h3>upGrade Tutors</h3>
                     </div>
@@ -58,7 +59,6 @@ export default function Projects () {
                     </div>
                 </div>       
             </div>
-
         </div>
     )
 }

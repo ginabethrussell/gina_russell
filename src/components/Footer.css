@@ -17,21 +17,25 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-main p{
     font-size: 1.6rem;
     font-weight: 600;
 }
+
 .footer-main a {
     text-decoration: none;
     font-size: 1.6rem;
     color: darkslateblue;
     font-weight: 600;
 }
+
 .footer-main .socialmedialinks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;    
 }
+
 .footer-main .socialmedialinks a {
     padding: 0 8px;
 }

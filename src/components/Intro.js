@@ -10,8 +10,7 @@ export default function Intro () {
                 <p className='jumbo-text'>
                     Hi! I'm a software developer<br /> and a educator. 
                 </p>
-            </div>
-            
+            </div>    
         </div>
     )
 }

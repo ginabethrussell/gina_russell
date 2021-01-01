@@ -19,7 +19,6 @@
     margin: 8px 0;
 }
 
-
 .contact-wrapper a {
     font-size: 1.6rem;
     font-weight: 400;
@@ -39,7 +38,7 @@
     bottom: .2em;
     left: 0;
     transition: right .2s ease-in-out;
-    }
+}
 
 .contact-wrapper a:hover::after {
    right: 0;
