@@ -20,16 +20,96 @@
     
 }
 .codegirlz-wrapper .project-section h1 {
+    margin: 0 auto;
     font-weight: 600;
     font-size: 2.6rem;
     margin-bottom: 20px;
 }
 
 .codegirlz-wrapper .project-section .img-wrapper {
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
 }
 .img-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cdd1d3;
+    box-shadow: 0 2px 2px #cdd1d3;
+}
+
+.codegirlz-wrapper .project-intro, .codegirlz-wrapper .project-purpose, .codegirlz-wrapper .project-walkthrough, .codegirlz-wrapper .project-underconstruction {
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.codegirlz-wrapper .project-intro h3, .codegirlz-wrapper .project-purpose h3, .codegirlz-wrapper .project-walkthrough h3, .codegirlz-wrapper .project-underconstruction h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+
+.codegirlz-wrapper .project-intro p, .codegirlz-wrapper .project-purpose p, .codegirlz-wrapper .project-walkthrough p, .codegirlz-wrapper .project-underconstruction p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.codegirlz-wrapper span.italic {
+    font-style: italic;
+}
+
+.codegirlz-wrapper .project-intro .project-links{
+    width: 75%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codegirlz-wrapper .project-intro .project-links a{
+    margin: 20px;
+}
+
+
+.codegirlz-wrapper .project-walkthrough .walkthrough-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.codegirlz-wrapper .project-walkthrough .walkthrough-page{
+    width: 40%;
+    margin: 20px;
+}
+
+.codegirlz-wrapper .project-walkthrough h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.codegirlz-wrapper .project-walkthrough h4 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.codegirlz-wrapper .project-section .page-img-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.page-img-wrapper img {
     width: 100%;
     border-radius: 10px;
     border: 1px solid #cdd1d3;
