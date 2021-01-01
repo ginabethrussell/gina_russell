@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
@@ -14,6 +14,10 @@ import developer from '../girl.png';
 import './CodeGirlz.css';
 
 export default function CodeGirlz () {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div className='codegirlz-wrapper'>
             <nav className='navbar'>
