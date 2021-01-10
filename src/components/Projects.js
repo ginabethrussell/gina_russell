@@ -18,7 +18,7 @@ export default function Projects () {
                 </div>
                 <div className='project-info'>
                     <div className = 'project-title'>
-                        <h3>CodeGirlz</h3>
+                        <h3>Code Girlz</h3>
                     </div>
                     <p>A React single page application created to offer free online coding instruction for girls.</p>
                     <div className='view-project'>
