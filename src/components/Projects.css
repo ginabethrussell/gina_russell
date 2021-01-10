@@ -116,7 +116,7 @@
     .view-project a {
         margin: 16px 0;
     } 
-    #upgradetutors.project-main {
+    #homeschoollibrary.project-main {
         flex-direction: column-reverse;
     }
 }

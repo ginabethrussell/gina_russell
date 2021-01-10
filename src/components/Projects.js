@@ -28,7 +28,7 @@ export default function Projects () {
                     </div>
                 </div>       
             </div>
-            <div id='homeschool-library' className='project-main'>
+            <div id='homeschoollibrary' className='project-main'>
                 <div className='project-info'>
                     <div className = 'project-title'>
                         <h3>Homeschool Library Manager</h3>
