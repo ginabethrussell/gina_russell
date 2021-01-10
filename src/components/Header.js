@@ -17,6 +17,7 @@ export default function Header () {
                     <a href='#about'>About</a>
                     <a href='#skills'>Skills</a>
                     <a href='#projects'>Projects</a>
+                    <Link to='/resume'>Resume</Link>
                     <a href='#contact'>Contact</a>
                 </div>
             </nav>

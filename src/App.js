@@ -10,6 +10,7 @@ import CodeGirlz from './components/CodeGirlz';
 import UpgradeTutors from './components/UpgradeTutors';
 import AnywhereFitness from './components/AnywhereFitness';
 import HomeschoolLibrary from './components/HomeschoolLibrary';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/project/homeschoollibrary' component={HomeschoolLibrary} />
         <Route path='/project/upgradetutors' component={UpgradeTutors} />
         <Route path='/project/anywherefitness' component={AnywhereFitness} />
+        <Route path='/resume' component={Resume} />
       </Switch> 
     </div>
   );
