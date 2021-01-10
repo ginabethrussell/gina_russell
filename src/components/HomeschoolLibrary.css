@@ -1,0 +1,150 @@
+.library-wrapper {
+    width: 100%;
+    display: flex;
+    padding: 30px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+}
+
+.library-wrapper .navbar {
+    margin-bottom: 30px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    margin-right: 5px;
+}
+
+.library-wrapper .project-section{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.library-wrapper .project-section h1 {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.library-wrapper .project-section .img-wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.img-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cdd1d3;
+    box-shadow: 0 2px 2px #cdd1d3;
+}
+
+.library-wrapper .project-intro, .codegirlz-wrapper .project-purpose, .codegirlz-wrapper .project-walkthrough, .codegirlz-wrapper .project-underconstruction {
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.library-wrapper .project-intro h3, .library-wrapper .project-purpose h3, .library-wrapper .project-walkthrough h3, .library-wrapper .project-underconstruction h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.library-wrapper .project-intro p, .library-wrapper .project-purpose p, .library-wrapper .project-walkthrough p, .library-wrapper .project-underconstruction p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.library-wrapper span.italic {
+    font-style: italic;
+}
+
+.library-wrapper .project-intro .project-links{
+    width: 75%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.library-wrapper .project-intro .project-links a{
+    margin: 20px;
+}
+
+.library-wrapper .project-walkthrough .walkthrough-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.library-wrapper .project-walkthrough .walkthrough-page{
+    width: 40%;
+    margin: 20px;
+}
+
+.library-wrapper .project-walkthrough h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.library-wrapper .project-section .page-img-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page-img-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cdd1d3;
+    box-shadow: 0 2px 2px #cdd1d3;
+}
+
+.library-wrapper .project-underconstruction ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.library-wrapper .project-underconstruction li {
+    list-style-type: circle;
+    font-size: 1.6rem;
+    margin: 8px 0;
+}
+
+@media screen and (max-width: 850px){
+    .library-wrapper .project-walkthrough .walkthrough-grid{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .library-wrapper .project-walkthrough .walkthrough-page{
+        width: 75%;
+        margin: 20px;
+    }
+}
