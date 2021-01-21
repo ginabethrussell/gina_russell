@@ -44,7 +44,7 @@ export default function HomeschoolLibrary () {
                         The project is currently <span className='italic'>under construction</span> and is deployed with Netlify and hosted on GitHub.
                     </p>
                     <div className='project-links'>
-                        <a href='https://homeschoollibrarymanager.netlify.app/' target='_blank' ><img src={WebsiteIcon} width='30px' alt='weblink icon' /></a>
+                        <a href='https://homeschool-library-manager.vercel.app/' target='_blank' ><img src={WebsiteIcon} width='30px' alt='weblink icon' /></a>
                         <a href='https://github.com/ginabethrussell/homeschool-library-manager' target='_blank'><img src={GitHubIcon} width='30px' alt='github icon' /></a>
                     </div>
                 </div>
