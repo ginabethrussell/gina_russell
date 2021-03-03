@@ -9,7 +9,7 @@ function Skills() {
             <p className='skills-text'>
                 I am a full stack web development student at Lambda School, graduating in April 2021.</p>
             <p className='skills-text'>
-                <a href=''>Lambda School</a> is an 6-month full-time computer science &amp; software engineering program that provides an immersive hands-on curriculum with a focus on computer science, and full-stack web development.</p>
+                <a href=''>Lambda School</a> is an 6-month full-time computer science &amp; software engineering program that provides an immersive hands-on curriculum with a focus on computer science and full-stack web development.</p>
             <h5 className='skills-text'>
                 My Skills
             </h5>
@@ -33,13 +33,19 @@ function Skills() {
                     Python
                 </li>
                 <li>
-                    Java
+                    Java Spring
                 </li>
                 <li>
-                    Java/Spring Rest Web APIs
+                    Spring Data
                 </li>
                 <li>
-                    PostgreSQL
+                    OAuth2.0
+                </li>
+                <li>
+                    REST Architecture
+                </li>
+                <li>
+                    Database design/SQL
                 </li>
                 <li>
                     GitHub and git version control

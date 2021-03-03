@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import CodeGirlzHome from '../CodeGirlzHomePage.png';
-import upGradeHome from '../upgradeHome.png'
-import anywhereFitness from '../anywherefitness.png';
 import homeschoolHome from '../HomeschoolHome.png'
 
 import './Projects.css';

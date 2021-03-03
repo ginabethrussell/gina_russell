@@ -13,7 +13,9 @@ export default function About() {
                 I am a full-stack web developer pursuing an entry level software developer position.
             </p>
             <p className='about-text'>
-                I enjoy building clean minimalist front end designs with React, building Java/Spring Web APIs with REST architecture and 
+                I enjoy building clean minimalist front end designs with React and building Java Spring Web APIs with REST architecture. 
+            </p>
+            <p className='about-text'>     
                 I am passionate about inspiring girls to code.
             </p>
         </div>

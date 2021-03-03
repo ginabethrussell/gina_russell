@@ -7,8 +7,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import CodeGirlz from './components/CodeGirlz';
-import UpgradeTutors from './components/UpgradeTutors';
-import AnywhereFitness from './components/AnywhereFitness';
 import HomeschoolLibrary from './components/HomeschoolLibrary';
 import Resume from './components/Resume';
 
@@ -27,8 +25,6 @@ function App() {
         </Route>
         <Route path='/project/codegirlz' component={CodeGirlz} />
         <Route path='/project/homeschoollibrary' component={HomeschoolLibrary} />
-        <Route path='/project/upgradetutors' component={UpgradeTutors} />
-        <Route path='/project/anywherefitness' component={AnywhereFitness} />
         <Route path='/resume' component={Resume} />
       </Switch> 
     </div>
