@@ -10,11 +10,11 @@ export default function About() {
                 I am an insatiably curious enthusiastic learner, a collaborative team player, and driven to excellence. I embrace both a growth mindset and an abundance mentality. I have 10+ years of experience in education, learning to learn, and teaching others. 
             </p>
             <p className='about-text'>
-                I am a full-stack web developer with a current interest in frontend development.
+                I am a full-stack web developer pursuing an entry level software developer position.
             </p>
             <p className='about-text'>
-                I enjoy building clean minimalist front end designs with React and 
-                I am passionate about teaching girls to code.
+                I enjoy building clean minimalist front end designs with React, building Java/Spring Web APIs with REST architecture and 
+                I am passionate about inspiring girls to code.
             </p>
         </div>
     )

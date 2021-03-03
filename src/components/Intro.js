@@ -8,7 +8,7 @@ export default function Intro () {
             <h2>Software Developer</h2>
             <div className='jumbotron' height='500px' >
                 <p className='jumbo-text'>
-                    Hi! I'm a software developer<br /> and a educator. 
+                    Hi! I'm a software developer<br /> and an educator. 
                 </p>
             </div>    
         </div>
