@@ -15,7 +15,7 @@ function Resume() {
                 </div>
             </nav>
             <div className='resume'>
-            <iframe src="https://resume.creddle.io/embed/5s3he9b48r3"
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQT0yik2RLSsKxtTMp_6p7WdlFmWT3tw8K8oVH1lsXbkRDGFZeHlDQ5z0CQQlVoCVOQvWp3TOGZYfKu/pub?embedded=true"
                 width="850" height="1100" seamless></iframe>
             </div>
             <Footer />
